@@ -10,5 +10,5 @@ style.Colors[ImGuiCol_TabActive] = RainbowColor(3.0f, 0.0f);
 
 Usage for strings:
 ```cpp
-ImGay::String("Hello World!", ImGay::Style(3.0f, 0.0f));
+ImGay::String("Webhook", ImGay::Style(3.0f, 0.0f));
 ```
