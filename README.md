@@ -7,7 +7,7 @@ Created by GrowHAX
 
 Usage for ImGui styles:
 ```cpp
-style.Colors[ImGuiCol_TabActive] = RainbowColor(3.0f, 0.0f);
+style.Colors[ImGuiCol_TabActive] = ImGay::Style(3.0f, 0.0f);
 ```
 
 Usage for strings:
