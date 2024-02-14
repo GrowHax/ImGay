@@ -11,7 +11,7 @@
 
 namespace ImGay {
     // ImGay::Style is used for ImGui Styles
-    // EXAMPLE: style.Colors[ImGuiCol_TabActive] = Style(3.0f, 0.0f);
+    // EXAMPLE: style.Colors[ImGuiCol_TabActive] = ImGay::Style(3.0f, 0.0f);
     static ImVec4 Style(float frequency, float timeOffset, float alpha = 1.0f) {
         float r = sinf(frequency * ImGui::GetTime() + 0.0f + timeOffset) * 127.0f + 128.0f;
         float g = sinf(frequency * ImGui::GetTime() + 2.0f + timeOffset) * 127.0f + 128.0f;
