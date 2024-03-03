@@ -13,10 +13,10 @@ bool Display_Popup = false;
 
 namespace ImGay {
     static ImVec4 RainbowColor(const char* text, float alpha = 1.0f) {
-        float Frequency = 0.1f; // Adjust frequency as needed
-        float TimeOffset = 0.0f; // Adjust time offset as needed
+        float Frequency = 0.1f;
+        float TimeOffset = 0.0f;
 
-        // Convert const char* to std::string
+        // const char* to std::string because of ImGui
         std::string str(text);
 
         float r = sinf(Frequency * ImGui::GetTime() + 0.0f + TimeOffset) * 127.0f + 128.0f;
